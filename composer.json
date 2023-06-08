@@ -1,5 +1,5 @@
 {
-    "name": "ang3/php-odoo-orm",
+    "name": "zangra/php-odoo-orm",
     "description": "PHP object relational mapper (ORM) for Odoo databases.",
     "type": "library",
     "license": "MIT",
@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "php": "^7.2.5",
-        "ang3/php-odoo-api-client": "^6.0",
+        "php": "^7.2.5 || ^8.1",
+        "zangra/php-odoo-api-client": ">=1.0",
         "symfony/cache": "^4.2 || ^5.0",
         "ocramius/proxy-manager": "^2.2",
         "doctrine/annotations": "^1.0",
