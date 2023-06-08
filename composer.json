@@ -1,7 +1,7 @@
 {
     "name": "zangra/php-odoo-orm",
     "description": "PHP object relational mapper (ORM) for Odoo databases.",
-    "type": "library",
+    "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
