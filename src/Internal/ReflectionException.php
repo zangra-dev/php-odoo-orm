@@ -1,6 +1,6 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Internal;
+namespace Zangra\Component\Odoo\ORM\Internal;
 
 use Throwable;
 

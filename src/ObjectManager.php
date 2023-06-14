@@ -1,14 +1,14 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM;
+namespace Zangra\Component\Odoo\ORM;
 
-use Ang3\Component\Odoo\Client;
-use Ang3\Component\Odoo\Expression\ExpressionBuilder;
-use Ang3\Component\Odoo\ORM\Exception\RecordNotFoundException;
-use Ang3\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
-use Ang3\Component\Odoo\ORM\Mapping\ClassMetadata;
-use Ang3\Component\Odoo\ORM\Mapping\ClassMetadataFactory;
-use Ang3\Component\Odoo\ORM\Schema\Schema;
+use Zangra\Component\Odoo\Client;
+use Zangra\Component\Odoo\Expression\ExpressionBuilder;
+use Zangra\Component\Odoo\ORM\Exception\RecordNotFoundException;
+use Zangra\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
+use Zangra\Component\Odoo\ORM\Mapping\ClassMetadata;
+use Zangra\Component\Odoo\ORM\Mapping\ClassMetadataFactory;
+use Zangra\Component\Odoo\ORM\Schema\Schema;
 use Doctrine\Common\Annotations\Reader;
 
 class ObjectManager

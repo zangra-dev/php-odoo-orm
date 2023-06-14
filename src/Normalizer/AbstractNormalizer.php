@@ -1,8 +1,8 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Normalizer;
+namespace Zangra\Component\Odoo\ORM\Normalizer;
 
-use Ang3\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
+use Zangra\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
 use ReflectionClass;
 use Symfony\Component\Serializer\Exception\CircularReferenceException;
 use Symfony\Component\Serializer\Exception\ExceptionInterface as SerializerException;

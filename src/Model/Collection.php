@@ -1,8 +1,8 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Model;
+namespace Zangra\Component\Odoo\ORM\Model;
 
-use Ang3\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
+use Zangra\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
 use ArrayIterator;
 
 /**

@@ -1,11 +1,11 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM;
+namespace Zangra\Component\Odoo\ORM;
 
-use Ang3\Component\Odoo\Expression\DomainInterface;
-use Ang3\Component\Odoo\Expression\ExpressionBuilder;
-use Ang3\Component\Odoo\ORM\Mapping\ClassMetadata;
-use Ang3\Component\Odoo\ORM\Schema\Model;
+use Zangra\Component\Odoo\Expression\DomainInterface;
+use Zangra\Component\Odoo\Expression\ExpressionBuilder;
+use Zangra\Component\Odoo\ORM\Mapping\ClassMetadata;
+use Zangra\Component\Odoo\ORM\Schema\Model;
 use DateTimeInterface;
 
 class ObjectRepository

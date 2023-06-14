@@ -1,8 +1,8 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Schema;
+namespace Zangra\Component\Odoo\ORM\Schema;
 
-use Ang3\Component\Odoo\ORM\ObjectManager;
+use Zangra\Component\Odoo\ORM\ObjectManager;
 use RuntimeException;
 use Symfony\Component\Serializer\Normalizer\PropertyNormalizer;
 

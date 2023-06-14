@@ -1,9 +1,9 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Normalizer;
+namespace Zangra\Component\Odoo\ORM\Normalizer;
 
-use Ang3\Component\Odoo\Expression\DomainInterface;
-use Ang3\Component\Odoo\Expression\ExpressionBuilder;
+use Zangra\Component\Odoo\Expression\DomainInterface;
+use Zangra\Component\Odoo\Expression\ExpressionBuilder;
 
 class DomainStringNormalizer extends AbstractNormalizer
 {

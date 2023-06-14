@@ -1,19 +1,19 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM;
+namespace Zangra\Component\Odoo\ORM;
 
-use Ang3\Component\Odoo\ORM\Exception\LogicException;
-use Ang3\Component\Odoo\ORM\Exception\RecordNotFoundException;
-use Ang3\Component\Odoo\ORM\Exception\RuntimeException;
-use Ang3\Component\Odoo\ORM\Internal\ProxyFactory;
-use Ang3\Component\Odoo\ORM\Mapping\ClassMetadata;
-use Ang3\Component\Odoo\ORM\Mapping\MappingException;
-use Ang3\Component\Odoo\ORM\Mapping\PropertyMetadata;
-use Ang3\Component\Odoo\ORM\Model\Collection;
-use Ang3\Component\Odoo\ORM\Normalizer\CollectionNormalizer;
-use Ang3\Component\Odoo\ORM\Normalizer\DomainStringNormalizer;
-use Ang3\Component\Odoo\ORM\Normalizer\RecordNormalizer;
-use Ang3\Component\Odoo\ORM\Schema\Model;
+use Zangra\Component\Odoo\ORM\Exception\LogicException;
+use Zangra\Component\Odoo\ORM\Exception\RecordNotFoundException;
+use Zangra\Component\Odoo\ORM\Exception\RuntimeException;
+use Zangra\Component\Odoo\ORM\Internal\ProxyFactory;
+use Zangra\Component\Odoo\ORM\Mapping\ClassMetadata;
+use Zangra\Component\Odoo\ORM\Mapping\MappingException;
+use Zangra\Component\Odoo\ORM\Mapping\PropertyMetadata;
+use Zangra\Component\Odoo\ORM\Model\Collection;
+use Zangra\Component\Odoo\ORM\Normalizer\CollectionNormalizer;
+use Zangra\Component\Odoo\ORM\Normalizer\DomainStringNormalizer;
+use Zangra\Component\Odoo\ORM\Normalizer\RecordNormalizer;
+use Zangra\Component\Odoo\ORM\Schema\Model;
 use ProxyManager\Proxy\GhostObjectInterface;
 use Symfony\Component\Serializer\Exception\ExceptionInterface as SerializerException;
 use Symfony\Component\Serializer\Serializer;

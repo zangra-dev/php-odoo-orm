@@ -1,9 +1,9 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Mapping;
+namespace Zangra\Component\Odoo\ORM\Mapping;
 
-use Ang3\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
-use Ang3\Component\Odoo\ORM\Schema\Field;
+use Zangra\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
+use Zangra\Component\Odoo\ORM\Schema\Field;
 use ReflectionProperty;
 
 class PropertyMetadata

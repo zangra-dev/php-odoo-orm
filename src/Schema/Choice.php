@@ -1,6 +1,6 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Schema;
+namespace Zangra\Component\Odoo\ORM\Schema;
 
 class Choice
 {

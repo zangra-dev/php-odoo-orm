@@ -1,6 +1,6 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM;
+namespace Zangra\Component\Odoo\ORM;
 
 use Symfony\Component\Cache\Adapter\ArrayAdapter;
 use Symfony\Contracts\Cache\CacheInterface;
