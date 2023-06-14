@@ -1,6 +1,6 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Annotation;
+namespace Zangra\Component\Odoo\ORM\Annotation;
 
 /**
  * @Annotation

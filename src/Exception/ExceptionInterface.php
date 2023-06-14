@@ -1,6 +1,6 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Exception;
+namespace Zangra\Component\Odoo\ORM\Exception;
 
 interface ExceptionInterface
 {

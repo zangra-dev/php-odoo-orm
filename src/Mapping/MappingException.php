@@ -1,10 +1,10 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Mapping;
+namespace Zangra\Component\Odoo\ORM\Mapping;
 
-use Ang3\Component\Odoo\ORM\Annotation;
-use Ang3\Component\Odoo\ORM\Exception\LogicException;
-use Ang3\Component\Odoo\ORM\Schema\Field;
+use Zangra\Component\Odoo\ORM\Annotation;
+use Zangra\Component\Odoo\ORM\Exception\LogicException;
+use Zangra\Component\Odoo\ORM\Schema\Field;
 use ReflectionProperty;
 
 class MappingException extends LogicException

@@ -1,12 +1,12 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Normalizer;
+namespace Zangra\Component\Odoo\ORM\Normalizer;
 
-use Ang3\Component\Odoo\Expression\DomainInterface;
-use Ang3\Component\Odoo\ORM\Exception\RuntimeException;
-use Ang3\Component\Odoo\ORM\Model\Collection;
-use Ang3\Component\Odoo\ORM\ObjectManager;
-use Ang3\Component\Odoo\ORM\Schema\Field;
+use Zangra\Component\Odoo\Expression\DomainInterface;
+use Zangra\Component\Odoo\ORM\Exception\RuntimeException;
+use Zangra\Component\Odoo\ORM\Model\Collection;
+use Zangra\Component\Odoo\ORM\ObjectManager;
+use Zangra\Component\Odoo\ORM\Schema\Field;
 use DateTimeInterface;
 use Symfony\Component\PropertyAccess\PropertyAccessor;
 use Symfony\Component\Serializer\Exception\InvalidArgumentException;
