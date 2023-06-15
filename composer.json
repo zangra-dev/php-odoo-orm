@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.2.5 || ^8.1",
-        "zangra/php-odoo-api-client": ">=1.0",
+        "zangra/php-odoo-api-client": ">=2.0",
         "symfony/cache": "^4.2 || ^5.0",
         "ocramius/proxy-manager": "^2.2",
         "doctrine/annotations": "^1.0",
