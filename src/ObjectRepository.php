@@ -2,8 +2,8 @@
 
 namespace Zangra\Component\Odoo\ORM;
 
-use Zangra\Component\Odoo\Expression\DomainInterface;
-use Zangra\Component\Odoo\Expression\ExpressionBuilder;
+use Zangra\Component\Odoo\DBAL\Expression\DomainInterface;
+use Zangra\Component\Odoo\DBAL\Expression\ExpressionBuilder;
 use Zangra\Component\Odoo\ORM\Mapping\ClassMetadata;
 use Zangra\Component\Odoo\ORM\Schema\Model;
 use DateTimeInterface;
