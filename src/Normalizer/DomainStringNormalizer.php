@@ -2,8 +2,8 @@
 
 namespace Zangra\Component\Odoo\ORM\Normalizer;
 
-use Zangra\Component\Odoo\Expression\DomainInterface;
-use Zangra\Component\Odoo\Expression\ExpressionBuilder;
+use Zangra\Component\Odoo\DBAL\Expression\DomainInterface;
+use Zangra\Component\Odoo\DBAL\Expression\ExpressionBuilder;
 
 class DomainStringNormalizer extends AbstractNormalizer
 {
