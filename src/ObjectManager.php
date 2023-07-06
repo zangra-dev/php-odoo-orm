@@ -3,7 +3,7 @@
 namespace Zangra\Component\Odoo\ORM;
 
 use Zangra\Component\Odoo\Client;
-use Zangra\Component\Odoo\Expression\ExpressionBuilder;
+use Zangra\Component\Odoo\DBAL\Expression\ExpressionBuilder;
 use Zangra\Component\Odoo\ORM\Exception\RecordNotFoundException;
 use Zangra\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
 use Zangra\Component\Odoo\ORM\Mapping\ClassMetadata;
