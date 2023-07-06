@@ -2,7 +2,7 @@
 
 namespace Zangra\Component\Odoo\ORM\Normalizer;
 
-use Zangra\Component\Odoo\Expression\ExpressionBuilder;
+use Zangra\Component\Odoo\DBAL\Expression\ExpressionBuilder;
 use Zangra\Component\Odoo\ORM\Model\Collection;
 use ProxyManager\Proxy\GhostObjectInterface;
 use Symfony\Component\Serializer\Exception\ExceptionInterface as SerializerException;
