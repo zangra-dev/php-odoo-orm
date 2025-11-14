@@ -17,11 +17,22 @@
         "doctrine/annotations": "^1.0",
         "symfony/property-access": "^5.0 || ^6.0",
         "symfony/serializer": "^5.0 || ^6.0",
-        "symfony/string": "^6.0"
+        "symfony/string": "^6.0",
+        "friendsofphp/proxy-manager-lts": "^1.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master"
     },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/zangra-dev/php-odoo-api-client.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/zangra-dev/php-xmlrpc-client.git"
+    }
+  ],
     "autoload": {
         "psr-4": {
             "Zangra\\Component\\Odoo\\ORM\\": "src/"
