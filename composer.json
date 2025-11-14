@@ -14,7 +14,7 @@
         "zangra/php-odoo-api-client": ">=2.0",
         "symfony/cache": "^5.0 || ^6.0",
         "ocramius/proxy-manager": "^2.2",
-        "doctrine/annotations": "^1.0",
+        "doctrine/annotations": "^2.0",
         "symfony/property-access": "^5.0 || ^6.0",
         "symfony/serializer": "^5.0 || ^6.0",
         "symfony/string": "^6.0",
